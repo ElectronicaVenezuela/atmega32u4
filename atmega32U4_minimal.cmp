@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by PcbNew   date = 17/09/2018 4:12:11
+
+BeginCmp
+TimeStamp = 5B9D3479
+Path = /5B9F30FB
+Reference = Y1;
+ValeurCmp = Crystal;
+IdModule  = Crystals:Crystal_SMD_0603-2pin_6.0x3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D3370
+Path = /5B9DB65C
+Reference = C4;
+ValeurCmp = 1.0UF-0402-16V-10%;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D33AB
+Path = /5B9862B8
+Reference = J1;
+ValeurCmp = USB_B_Micro;
+IdModule  = Connect:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D3395
+Path = /5B9D37E0
+Reference = F1;
+ValeurCmp = Fuse;
+IdModule  = Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D33DA
+Path = /5B985E48
+Reference = J2;
+ValeurCmp = Micro_SD_Card;
+IdModule  = Connect:microSD_Card_Receptacle_Wuerth_693072010801;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D333D
+Path = /5B9BD073
+Reference = C1;
+ValeurCmp = 0.1UF-0402-16V-10%;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D334E
+Path = /5B9C7426
+Reference = C2;
+ValeurCmp = 18PF-0603-50V-5%;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D335F
+Path = /5B9C747D
+Reference = C3;
+ValeurCmp = 18PF-0603-50V-5%;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D3385
+Path = /5B9CC1FC
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D33EB
+Path = /5B9B6E1E
+Reference = R1;
+ValeurCmp = 22;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D33FC
+Path = /5B9B6E88
+Reference = R2;
+ValeurCmp = 22;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D340D
+Path = /5B9CB0EF
+Reference = R3;
+ValeurCmp = 1K0402;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D341E
+Path = /5B9D4B5C
+Reference = R4;
+ValeurCmp = 10k0402;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9D3461
+Path = /5B9FC943
+Reference = U2;
+ValeurCmp = ATmega32U4-AU;
+IdModule  = Housings_QFP:LQFP-44_10x10mm_Pitch0.8mm;
+EndCmp
+
+EndListe

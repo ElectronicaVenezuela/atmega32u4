@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\FeliC\Desktop\proyectos-pcb\atmega32U4_minimal\atmega32U4_minimal.sch</source>
+    <date>15/09/2018 5:33:22</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>atmega32U4_minimal.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Micro_SD_Card</value>
+      <footprint>Connect:microSD_Card_Receptacle_Wuerth_693072010801</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
+      <libsource lib="Connector" part="Micro_SD_Card" description="Micro SD Card Socket"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B985E48</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connect:USB_Micro-B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9862B8</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>PPTC_HALF-AMP</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_Littelfuse-LVR125</footprint>
+      <fields>
+        <field name="Campo4">RES-08585</field>
+      </fields>
+      <libsource lib="SparkFun-Fuses" part="PPTC_HALF-AMP" description="Resettable Fuse PPTC Resettable Fuse. Really a sort of resistor with a &lt;b&gt;p&lt;/b&gt;olymeric &lt;b&gt;p&lt;/b&gt;ositive &lt;b&gt;t&lt;/b&gt;emperature &lt;b&gt;c&lt;/b&gt;oefficient whose resistance increases dramatically with an increase in temperature. When heated by the power passing through the resistance rises causing the current to be limited, protecting the circuit. This is achieved by the transition of the polymer from a crystalline to an amorphous state where the conductive carbon separates breaking the conductive pathways found in the cool crystalline structure. When a PPTC cools back down it resumes conducting letting the circuit turn back on. SparkFun Products:&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12757&quot;&gt;SparkFun RedBoard - Programmed with Arduino&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12640&quot;&gt;Pro Micro - 5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10915&quot;&gt;Arduino Pro 328 - 5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/13720&quot;&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9B3B2C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9B6E1E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9B6E88</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Campo4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9BD073</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>18PF-0603-50V-5%</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Campo4">CAP-08267</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="18PF-0603-50V-5%" description="18pF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9C7426</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>18PF-0603-50V-5%</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Campo4">CAP-08267</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="18PF-0603-50V-5%" description="18pF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9C747D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K0402</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Campo4"> </field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="RESISTOR0402" description="Generic Resistor Package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9CB0EF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0402</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9CC1FC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k0402</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Campo4"> </field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="RESISTOR0402" description="Generic Resistor Package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D4B5C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1.0UF-0402-16V-10%</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Campo4">CAP-12417</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="1.0UF-0402-16V-10%" description="1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DB65C</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>CRYSTALSMD-5X3.2-2PAD</value>
+      <footprint>Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm</footprint>
+      <fields>
+        <field name="Campo4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Clocks" part="CRYSTALSMD-5X3.2-2PAD" description="Crystals (Generic) These are &lt;b&gt;passive&lt;/b&gt; quartz crystals, which can be used as a clock source for a microcontroller. Crystal's are two-terminal devices. They require external &quot;load&quot; capacitors to generate an oscillating signal."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F5581</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U4-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9FC943</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-AU">
+      <aliases>
+        <alias>ATmega16U4RC-AU</alias>
+        <alias>ATmega32U4-AU</alias>
+        <alias>ATmega32U4RC-AU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="passive"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="input"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%">
+      <description>0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0603*</fp>
+        <fp>*0603*</fp>
+        <fp>*CAP-PTH-SMALL-KIT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1UF-0402-16V-10%</field>
+        <field name="Footprint">0402</field>
+        <field name="Campo4">CAP-12416</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="1.0UF-0402-16V-10%">
+      <description>1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0805*</fp>
+        <fp>*0805*</fp>
+        <fp>*1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1.0UF-0402-16V-10%</field>
+        <field name="Footprint">0402</field>
+        <field name="Campo4">CAP-12417</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="18PF-0603-50V-5%">
+      <description>18pF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">18PF-0603-50V-5%</field>
+        <field name="Footprint">0603</field>
+        <field name="Campo4">CAP-08267</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Clocks" part="CRYSTALSMD-5X3.2-2PAD">
+      <description>Crystals (Generic) These are &lt;b&gt;passive&lt;/b&gt; quartz crystals, which can be used as a clock source for a microcontroller. Crystal's are two-terminal devices. They require external "load" capacitors to generate an oscillating signal.</description>
+      <footprints>
+        <fp>*CRYSTAL-SMD-5X3.2-2PAD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CRYSTALSMD-5X3.2-2PAD</field>
+        <field name="Footprint">CRYSTAL-SMD-5X3.2-2PAD</field>
+        <field name="Campo4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Fuses" part="PPTC_HALF-AMP">
+      <description>Resettable Fuse PPTC Resettable Fuse. Really a sort of resistor with a &lt;b&gt;p&lt;/b&gt;olymeric &lt;b&gt;p&lt;/b&gt;ositive &lt;b&gt;t&lt;/b&gt;emperature &lt;b&gt;c&lt;/b&gt;oefficient whose resistance increases dramatically with an increase in temperature. When heated by the power passing through the resistance rises causing the current to be limited, protecting the circuit. This is achieved by the transition of the polymer from a crystalline to an amorphous state where the conductive carbon separates breaking the conductive pathways found in the cool crystalline structure. When a PPTC cools back down it resumes conducting letting the circuit turn back on. SparkFun Products:&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12757"&gt;SparkFun RedBoard - Programmed with Arduino&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12640"&gt;Pro Micro - 5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10915"&gt;Arduino Pro 328 - 5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13720"&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*1206*</fp>
+        <fp>*1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">PPTC_HALF-AMP</field>
+        <field name="Footprint">1206</field>
+        <field name="Campo4">RES-08585</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="RESISTOR0402">
+      <description>Generic Resistor Package</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0805*</fp>
+        <fp>*1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Campo4"> </field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="SparkFun-Capacitors">
+      <uri>C:\Users\FeliC\Desktop\proyectos-pcb\liberias\SparkFun-KiCad-Libraries-master\Libraries\SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="SparkFun-Clocks">
+      <uri>C:/Users/FeliC/Desktop/proyectos-pcb/liberias/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Clocks.lib</uri>
+    </library>
+    <library logical="SparkFun-Fuses">
+      <uri>C:\Users\FeliC\Desktop\proyectos-pcb\liberias\SparkFun-KiCad-Libraries-master\Libraries\SparkFun-Fuses.lib</uri>
+    </library>
+    <library logical="SparkFun-Resistors">
+      <uri>C:\Users\FeliC\Desktop\proyectos-pcb\liberias\SparkFun-KiCad-Libraries-master\Libraries\SparkFun-Resistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="17"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Y1" pin="P$1"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="14" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Y1" pin="P$2"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="J1" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="23"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad4)">
+      <node ref="U1" pin="33"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="31" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="44"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="33" name="Net-(J2-Pad5)">
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="34" name="VCC">
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad7)">
+      <node ref="U1" pin="11"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="39" name="Net-(F1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad3)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad3)">
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="43" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="44" name="VBUS">
+      <node ref="U1" pin="7"/>
+      <node ref="F1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="45" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+  </nets>
+</export>
